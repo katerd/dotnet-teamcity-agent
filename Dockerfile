@@ -4,4 +4,5 @@ USER root
 
 RUN add-apt-repository ppa:dotnet/backports
 RUN apt-get update && \
-	apt-get install -y dotnet-sdk-9.0
+	apt-get install -y dotnet-sdk-9.0 && \
+	apt-get install -y dotnet-sdk-10.0
